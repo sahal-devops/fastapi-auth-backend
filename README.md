@@ -24,6 +24,7 @@ Clean Backend Architecture
 ✅ Modular FastAPI Project Structure
 
 🛠️ Tech Stack
+
 Category	Technologies
 Backend	FastAPI, Python
 Database	PostgreSQL
@@ -33,7 +34,9 @@ Security	Passlib (bcrypt)
 Containerization	Docker, Docker Compose
 Documentation	Swagger/OpenAPI
 Version Control	Git & GitHub
+
 📂 Project Structure
+
 fastapi-auth-backend/
 │
 ├── app/
@@ -56,7 +59,9 @@ fastapi-auth-backend/
 ├── docker-compose.yml
 ├── requirements.txt
 └── .gitignore
+
 🔐 Authentication Flow
+
 Register User
 → Hash Password
 → Store User in PostgreSQL
@@ -69,13 +74,17 @@ Protected Route
 → Verify JWT
 → Validate Role
 → Return Response
+
 🐳 Docker Architecture
+
 FastAPI Container
         ↕
 PostgreSQL Container
         ↕
 Docker Network
+
 🚀 Getting Started
+
 1️⃣ Clone the Repository
 git clone git@github.com:0079567603568sahal/fastapi-auth-backend.git
 cd fastapi-auth-backend
@@ -86,10 +95,9 @@ source venv/bin/activate
 pip install -r requirements.txt
 4️⃣ Run Using Docker Compose
 docker-compose up --build
+
 🌐 API Access
-
 Once running:
-
 FastAPI API
 http://localhost:8000
 Swagger Documentation
@@ -102,6 +110,7 @@ POST	/register	Register User
 POST	/login	User Login
 GET	/profile	Protected User Route
 GET	/admin	Admin-only Route
+
 🗄️ Database
 
 This project uses:
@@ -116,7 +125,6 @@ Secure authentication data handling
 🧠 What I Learned
 
 Through this project, I practised:
-
 Backend API architecture
 JWT authentication lifecycle
 Secure password hashing
@@ -133,10 +141,9 @@ GitHub Actions CI/CD
 Kubernetes Deployment
 Cloud Deployment (AWS/Azure/Render)
 Monitoring & Logging
+
 🌍 Deployment Goals
-
 This project is being expanded toward:
-
 ✅ Cloud Deployment
 ✅ CI/CD Automation
 ✅ Production-Style DevOps Workflow
@@ -144,20 +151,14 @@ This project is being expanded toward:
 
 👨‍💻 Author
 Muhammed Sahal
-
 Backend & DevOps Engineer
 FastAPI • Docker • CI/CD • AWS • Azure • Kubernetes • Python
-
 📍 Kerala, India
-
 GitHub:
-
 https://github.com/0079567603568sahal
 ⭐ Project Status
 Actively Improving & Expanding
-
 Current focus:
-
 Production deployment
 GitHub Actions
 Cloud infrastructure
