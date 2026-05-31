@@ -86,7 +86,7 @@ Docker Network
 🚀 Getting Started
 
 1️⃣ Clone the Repository
-git clone git@github.com:0079567603568sahal/fastapi-auth-backend.git
+git clone https://github.com/sahal-devops/fastapi-auth-backend.git
 cd fastapi-auth-backend
 2️⃣ Create Virtual Environment
 python -m venv venv
@@ -154,8 +154,7 @@ Muhammed Sahal
 Backend & DevOps Engineer
 FastAPI • Docker • CI/CD • AWS • Azure • Kubernetes • Python
 📍 Kerala, India
-GitHub:
-https://github.com/0079567603568sahal
+GitHub: https://github.com/sahal-devops
 ⭐ Project Status
 Actively Improving & Expanding
 Current focus:
